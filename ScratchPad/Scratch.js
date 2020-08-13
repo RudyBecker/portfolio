@@ -1,7 +1,19 @@
-const users = [
-    {name: 'Amir', admin: true},
-    {name: 'Betty', admin: false},
-  ]
-  users.filter(user => user.admin)
-  
-  console.log(users.map(user => user.name))
+var arr = ["dog", "ever", "!"];
+for (let i = 0; i < arr.length; i++) {
+  setTimeout(function () {
+    console.log(arr[i]);
+  }, 500);
+}
+
+function dogMeter() {
+  console.log("Rudy")
+  addWord();
+  console.log("the")
+}
+function addWord() {
+  return console.log("is");
+}
+
+dogMeter();
+
+console.log("coolest")
